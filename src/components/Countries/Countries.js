@@ -10,17 +10,11 @@ const Countries = () => {
       .then((res) => res.json())
       .then((data) => setCountries(data.slice(0, 9)));
   }, []);
-  console.log(countries);
   return (
     <div className="mm">
       <h2 className="availableC">Available Country: {countries.length}</h2>
       <div className="container">
-        {countries.map((country) => (
-            <Country  Name={country.name.common}
-            capital={country.capital[0]}
-            flag={country.flags.png}></Country>
-          
-        ))}
+        {countries.map((country) => ( <Country country={country}></Country>))}
       </div>
       <button className="btn3">Load More</button>
     </div>
