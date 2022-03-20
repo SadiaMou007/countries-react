@@ -1,0 +1,14 @@
+.headerc {
+  background-color: aliceblue;
+  height: 70px;
+  font-size: larger;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerc a {
+  text-decoration: none;
+  color: brown;
+}
+
