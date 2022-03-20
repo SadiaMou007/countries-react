@@ -1,14 +1,17 @@
-.headerc {
-  background-color: aliceblue;
-  height: 70px;
+.header {
+  background-color: rgb(56, 54, 54);
   font-size: larger;
   font-weight: 700;
+}
+.headerc {
+  height: 70px;
+
+  width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .headerc a {
   text-decoration: none;
-  color: brown;
+  color: white;
 }
-
