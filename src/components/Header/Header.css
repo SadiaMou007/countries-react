@@ -5,13 +5,12 @@
 }
 .headerc {
   height: 70px;
-
-  width: 25%;
-  display: flex;
-  justify-content: space-around;
+display: flex;
+  justify-content:left;
   align-items: center;
 }
 .headerc a {
   text-decoration: none;
   color: white;
+  margin-left: 20px;
 }
