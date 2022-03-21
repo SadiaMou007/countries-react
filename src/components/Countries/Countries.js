@@ -8,7 +8,7 @@ const Countries = () => {
   useEffect(() => {
     fetch("https://restcountries.com/v3.1/all")
       .then((res) => res.json())
-      .then((data) => setCountries(data.slice(0, 9)));
+      .then((data) => setCountries(data.slice(0, 19)));
   }, []);
   return (
     <div className="mm">
